@@ -1,5 +1,5 @@
 '''
-876. Middle of hte linked list
+876. Middle of the linked list
 
 Given the head of a singly linked list, return the middle node of the linked list.
 
