@@ -80,7 +80,6 @@
     <a href="#hard-problems">Hard Problems</a>
 </p>
 
-### [Easy Problems](#easy-problems)
 
 - **Happy Number (LC-202)**  
     - Problem: Determine if a number is a happy number.  
@@ -89,29 +88,40 @@
 
 - **Add Digits (LC-258)**  
     - Problem: Given a number, repeatedly add its digits until a single-digit result is obtained.  
-    - Solution: Use the formula for the digital root, i.e., n % 9.  
+    - Solution: Use the formula for the digital root, i.e., `n % 9`.  
     - [File: `addDigitsLC(258).py`](./addDigitsLC(258).py)
 
-### [Medium Problems](#medium-problems)
 
 - **Cycle in a Linked List (LC-141)**  
     - Problem: Detect if a linked list has a cycle.  
     - Solution: Use Floyd’s Tortoise and Hare algorithm to detect a cycle.  
     - [File: `LC(141).py`](./LC(141).py)
 
-### [Hard Problems](#hard-problems)
+- **Remove Nth Node From End of List (LC-19)**  
+    - Problem: Remove the nth node from the end of the list.  
+    - Solution: Use two pointers to determine the position of the node to be removed.  
+    - [File: `LC(19).py`](./LC(19).py)
+
+- **Merge Two Sorted Lists (LC-21)**  
+    - Problem: Merge two sorted linked lists into one sorted list.  
+    - Solution: Use a dummy node to build the merged list by comparing nodes.  
+    - [File: `LC(21).py`](./LC(21).py)
+
+- **Middle of the Linked List (LC-876)**  
+    - Problem: Find the middle node of a linked list.  
+    - Solution: Use two pointers to find the middle by moving one pointer two steps at a time and the other one step at a time.  
+    - [File: `LC(876).py`](./LC(876).py)
+
+
+- **Square Root of x (LC-69)**  
+    - Problem: Compute the square root of a non-negative integer `x` without using the `sqrt` function.  
+    - Solution: Use binary search to find the square root.  
+    - [File: `sqrt(x).py`](./sqrt(x).py)
 
 ---
-
-## Additional Information
 
 ### [Single Linked List Implementation](#single-linked-list-implementation)
 - A basic implementation of a singly linked list in Python that includes operations like insertion at head, insertion at tail, and deletion.
 - [File: `singlelinkedlist.py`](./singlelinkedlist.py)
 
-### [Square Root of x (LC-69)](#square-root-of-x)
-- Problem: Compute the square root of a non-negative integer `x` without using the `sqrt` function.
-- Solution: Use binary search to find the square root.  
-- [File: `sqrt(x).py`](./sqrt(x).py)
-
----
+---  
