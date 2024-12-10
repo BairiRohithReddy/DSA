@@ -6,7 +6,7 @@ class Solution:
     contains any duplicate elements.
     """
 
-    def containsDuplicate(self, nums: List[int]) -> bool:
+    def containsDuplicate(self, nums: List[int]) -> bool: # type: ignore
         """
         Determines if the input list contains any duplicate elements.
 

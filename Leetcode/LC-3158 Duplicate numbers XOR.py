@@ -1,5 +1,5 @@
 class Solution:
-    def duplicateNumbersXOR(self, nums: List[int]) -> int:
+    def duplicateNumbersXOR(self, nums: List[int]) -> int: # type: ignore
         """
         Find the XOR of all numbers that appear exactly twice in the input list.
 
@@ -17,7 +17,7 @@ class Solution:
         2
         """
         # Count the frequency of each number
-        freq = Counter(nums)
+        freq = Counter(nums) # type: ignore
         
         # Variable to store the final XOR result
         result = 0
