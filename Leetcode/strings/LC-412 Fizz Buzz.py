@@ -1,5 +1,5 @@
 class Solution:
-    def fizzBuzz(self, n: int) -> List[str]:
+    def fizzBuzz(self, n: int) -> List[str]:    #type:ignore
         """
         Generate the FizzBuzz sequence up to n.
 
