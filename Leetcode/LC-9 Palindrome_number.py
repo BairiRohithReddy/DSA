@@ -42,3 +42,6 @@ class Solution:
 
         # Check if the reversed number is equal to the original
         return req_number == x
+    
+    # another approach is to use the a string manipulation by converting the given number to string
+        # return str(x) == str(x)[::-1]
