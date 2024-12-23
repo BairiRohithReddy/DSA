@@ -1,3 +1,15 @@
+## About This Repository
+
+This repository contains my personal work on algorithms, data structures, and LeetCode problems. While the code implementations are my own original work, I've utilized Large Language Models (LLMs) in the following ways:
+
+1. To explain and refine my approach to problems
+2. To assist in documenting the solutions
+3. To help structure and format the explanations
+
+This methodology allows me to leverage AI as a learning and documentation tool while ensuring that the problem-solving and coding remain my own work. My goal is to create a comprehensive resource that reflects my learning journey while benefiting from AI-assisted explanation and documentation.
+
+I want to be clear that while the documentation and explanations have been enhanced with the help of LLMs, the code solutions are my own implementations. This approach combines personal effort with AI assistance to create a more robust and well-documented learning resource.
+
 ---
 
 # Algorithms and Data Structures
