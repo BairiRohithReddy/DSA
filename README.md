@@ -92,45 +92,130 @@ I want to be clear that while the documentation and explanations have been enhan
     <a href="#hard-problems">Hard Problems</a>
 </p>
 
+## Leetcode Explanation
 
-- **Happy Number (LC-202)**  
-    - Problem: Determine if a number is a happy number.  
-    - Solution: Check if the sum of the squares of the digits eventually leads to 1 or loops.  
-    - [File: `happy_numberLC(202).py`](./happy_numberLC(202).py)
+<p align="center">
+    <a href="#arrays">Arrays</a> •
+    <a href="#linked-lists">Linked Lists</a> •
+    <a href="#bit-manipulation">Bit Manipulation</a> •
+    <a href="#search-algorithms">Search Algorithms</a> •
+    <a href="#stacks-and-queues">Stacks and Queues</a> •
+    <a href="#strings">Strings</a> •
+    <a href="#other-problems">Other Problems</a>
+</p>
 
-- **Add Digits (LC-258)**  
-    - Problem: Given a number, repeatedly add its digits until a single-digit result is obtained.  
-    - Solution: Use the formula for the digital root, i.e., `n % 9`.  
-    - [File: `addDigitsLC(258).py`](./addDigitsLC(258).py)
+### Arrays
 
+- **Single Number (LC-136)**
+  - [File: `Leetcode/arrays/LC-136 Single Number.py`](Leetcode/arrays/LC-136%20Single%20Number.py)
 
-- **Cycle in a Linked List (LC-141)**  
-    - Problem: Detect if a linked list has a cycle.  
-    - Solution: Use Floyd’s Tortoise and Hare algorithm to detect a cycle.  
-    - [File: `LC(141).py`](./LC(141).py)
+- **Happy Number (LC-202)**
+  - [File: `Leetcode/arrays/LC-202 Happy_number.py`](Leetcode/arrays/LC-202%20Happy_number.py)
 
-- **Remove Nth Node From End of List (LC-19)**  
-    - Problem: Remove the nth node from the end of the list.  
-    - Solution: Use two pointers to determine the position of the node to be removed.  
-    - [File: `LC(19).py`](./LC(19).py)
+- **Maximum Beauty of an Array After Applying Operation (LC-2779)**
+  - [File: `Leetcode/arrays/LC-2779 Maximum Beauty of an array after applying an operation.py`](Leetcode/arrays/LC-2779%20Maximum%20Beauty%20of%20an%20array%20after%20applying%20an%20operation.py)
 
-- **Merge Two Sorted Lists (LC-21)**  
-    - Problem: Merge two sorted linked lists into one sorted list.  
-    - Solution: Use a dummy node to build the merged list by comparing nodes.  
-    - [File: `LC(21).py`](./LC(21).py)
+- **Container With Most Water (LC-11)**
+  - [File: `Leetcode/arrays/LC-11. Container with most water (medium).py`](Leetcode/arrays/LC-11.%20Container%20with%20most%20water%20(medium).py)
 
-- **Middle of the Linked List (LC-876)**  
-    - Problem: Find the middle node of a linked list.  
-    - Solution: Use two pointers to find the middle by moving one pointer two steps at a time and the other one step at a time.  
-    - [File: `LC(876).py`](./LC(876).py)
+- **Contains Duplicate (LC-217)**
+  - [File: `Leetcode/arrays/LC-217 Contains Duplicate.py`](Leetcode/arrays/LC-217%20Contains%20Duplicate.py)
 
+- **Max Consecutive Ones (LC-485)**
+  - [File: `Leetcode/arrays/LC-485 Max Consecutive Ones.py`](Leetcode/arrays/LC-485%20Max%20Consecutive%20Ones.py)
 
-- **Square Root of x (LC-69)**  
-    - Problem: Compute the square root of a non-negative integer `x` without using the `sqrt` function.  
-    - Solution: Use binary search to find the square root.  
-    - [File: `sqrt(x).py`](./sqrt(x).py)
+- **Find Pivot Index (LC-724)**
+  - [File: `Leetcode/arrays/LC-724. Find pivot index.py`](Leetcode/arrays/LC-724.%20Find%20pivot%20index.py)
 
----
+- **Find Minimum in Rotated Sorted Array (LC-153)**
+  - [File: `Leetcode/arrays/LC-153. Find minimum in rotated sorted array.py`](Leetcode/arrays/LC-153.%20Find%20minimum%20in%20rotated%20sorted%20array.py)
+
+- **Majority Element (LC-169)**
+  - [File: `Leetcode/arrays/LC-169. Majority element.py`](Leetcode/arrays/LC-169.%20Majority%20element.py)
+
+- **Ugly Number (LC-264)**
+  - [File: `Leetcode/arrays/LC-264 Ugly number.py`](Leetcode/arrays/LC-264%20Ugly%20number.py)
+
+- **Add Digits (LC-258)**
+  - [File: `Leetcode/arrays/LC-258 addDigits.py`](Leetcode/arrays/LC-258%20addDigits.py)
+
+- **Max Chunks To Make Sorted (LC-769)**
+  - [File: `Leetcode/arrays/LC-769 Max chucks to sorted array.py`](Leetcode/arrays/LC-769%20Max%20chucks%20to%20sorted%20array.py)
+
+- **Missing Number (LC-268)**
+  - [File: `Leetcode/arrays/LC-268 missing number.py`](Leetcode/arrays/LC-268%20missing%20number.py)
+
+- **Best Time to Buy and Sell Stock (LC-121)**
+  - [File: `Leetcode/arrays/LC-121 BestTimeToBuyAndSellStock.py`](Leetcode/arrays/LC-121%20BestTimeToBuyAndSellStock.py)
+
+- **Count Primes (LC-204)**
+  - [File: `Leetcode/arrays/LC-204 Count-primes.py`](Leetcode/arrays/LC-204%20Count-primes.py)
+
+- **Find All Numbers Disappeared in an Array (LC-448)**
+  - [File: `Leetcode/arrays/LC-448. Find all numbers disappeared in an array.py`](Leetcode/arrays/LC-448.%20Find%20all%20numbers%20disappeared%20in%20an%20array.py)
+
+- **Single Number II (LC-137)**
+  - [File: `Leetcode/arrays/LC-137 Single number 2 (medium).py`](Leetcode/arrays/LC-137%20Single%20number%202%20(medium).py)
+
+- **Find the Duplicate Number (LC-287)**
+  - [File: `Leetcode/arrays/LC-287 findDuplicates(M).py`](Leetcode/arrays/LC-287%20findDuplicates(M).py)
+
+### Linked Lists
+
+- **Remove Nth Node From End of List (LC-19)**
+  - [File: `Leetcode/Linked lists/LC-19 Remove nth node from the end.py`](Leetcode/Linked%20lists/LC-19%20Remove%20nth%20node%20from%20the%20end.py)
+
+- **Middle of the Linked List (LC-876)**
+  - [File: `Leetcode/Linked lists/LC-876 find the middle node of a linked list.py`](Leetcode/Linked%20lists/LC-876%20find%20the%20middle%20node%20of%20a%20linked%20list.py)
+
+- **Merge Two Sorted Lists (LC-21)**
+  - [File: `Leetcode/Linked lists/LC-21 merge two sorted lists.py`](Leetcode/Linked%20lists/LC-21%20merge%20two%20sorted%20lists.py)
+
+- **Linked List Cycle (LC-141)**
+  - [File: `Leetcode/Linked lists/LC-141 check if the linked list has a cycle.py`](Leetcode/Linked%20lists/LC-141%20check%20if%20the%20linked%20list%20has%20a%20cycle.py)
+
+### Bit Manipulation
+
+- **Duplicate Numbers XOR (LC-3158)**
+  - [File: `Leetcode/Bit manipulation/LC-3158 Duplicate numbers XOR.py`](Leetcode/Bit%20manipulation/LC-3158%20Duplicate%20numbers%20XOR.py)
+
+- **Identify the Largest Outlier (LC-3371)**
+  - [File: `Leetcode/Bit manipulation/LC-3371 Identify the largest outlier.py`](Leetcode/Bit%20manipulation/LC-3371%20Identify%20the%20largest%20outlier.py)
+
+- **Smallest Number with All Bits Set (LC-3370)**
+  - [File: `Leetcode/Bit manipulation/LC-3370 Smallest Number with all bits set.py`](Leetcode/Bit%20manipulation/LC-3370%20Smallest%20Number%20with%20all%20bits%20set.py)
+
+### Search Algorithms
+
+- **Binary Search (LC-704)**
+  - [File: `Leetcode/Search Algorithms/LC-704 Binary Search.py`](Leetcode/Search%20Algorithms/LC-704%20Binary%20Search.py)
+
+### Stacks and Queues
+
+- **Valid Parentheses (LC-20)**
+  - [File: `Leetcode/Stacks and Queues/LC-20 Valid Parenthesis.py`](Leetcode/Stacks%20and%20Queues/LC-20%20Valid%20Parenthesis.py)
+
+### Strings
+
+- **Roman to Integer (LC-13)**
+  - [File: `Leetcode/strings/LC-13 Roman to int.py`](Leetcode/strings/LC-13%20Roman%20to%20int.py)
+
+- **Fizz Buzz (LC-412)**
+  - [File: `Leetcode/strings/LC-412 Fizz Buzz.py`](Leetcode/strings/LC-412%20Fizz%20Buzz.py)
+
+- **Longest Common Prefix (LC-14)**
+  - [File: `Leetcode/strings/LC-14 longest common prefix.py`](Leetcode/strings/LC-14%20longest%20common%20prefix.py)
+
+### Other Problems
+
+- **Floyd Cycle Detection**
+  - [File: `Leetcode/floyd cycle detection.py`](Leetcode/floyd%20cycle%20detection.py)
+
+- **Plus One (LC-66)**
+  - [File: `Leetcode/LC-66 plusOne.py`](Leetcode/LC-66%20plusOne.py)
+
+- **Palindrome Number (LC-9)**
+  - [File: `Leetcode/LC-9 Palindrome_number.py`](Leetcode/LC-9%20Palindrome_number.py)
 
 ### [Single Linked List Implementation](#single-linked-list-implementation)
 - A basic implementation of a singly linked list in Python that includes operations like insertion at head, insertion at tail, and deletion.
