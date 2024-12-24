@@ -66,6 +66,17 @@ class Solution:
             """
             n = len(nums)
             return [i for i in range(1, n+1) if i not in nums]
+        
+        def approach5(nums: List[int]) -> List[int]:    #type:ignore
+            # using hashset
+            result = []
+            nums_dict = {i:0 for i in range(1, len(nums))}
+            for num in nums_dict:
+                nums_dict[num] += 1
+            for k, v in nums_dict.values():
+                if v == 0:
+                    result.append(v)
+            return result                
 
         # Uncomment the approach you want to use
         # return approach1(nums)
