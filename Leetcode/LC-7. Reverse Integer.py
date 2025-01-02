@@ -42,7 +42,7 @@ class Solution:
         if result > int_max or result < int_min:
             return 0
 
-        return result
+        return result 
 
 '''
 
