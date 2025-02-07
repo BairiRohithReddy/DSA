@@ -1,13 +1,5 @@
 class Solution:
     def maxScore(self, cardPoints: List[int], k: int) -> int: # type:ignore
-        max_score = sum(cardPoints[:k])
-        curr_score = max_score
-        n = len(cardPoints)-1
-        
-        for i in range(k):
-            curr_score = curr_score -cardPoints[k-i-1] + cardPoints[n-i]
-            max_score = max(max_score, curr_score)
-        return max_score
         '''
         We can solve this problem by using sliding window technique.
         We will calculate the sum of the first k elements and store it in max_score.
@@ -19,3 +11,11 @@ class Solution:
         time complexity: O(N)
         space complexity: O(1)
         '''
+        max_score = sum(cardPoints[:k])
+        curr_score = max_score
+        n = len(cardPoints)-1
+        
+        for i in range(k):
+            curr_score = curr_score -cardPoints[k-i-1] + cardPoints[n-i]
+            max_score = max(max_score, curr_score)
+        return max_score
